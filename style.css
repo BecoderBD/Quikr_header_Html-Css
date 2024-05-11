@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header{
+    height: 95px;
+    width: 100%;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.header_top{
+    height: 34px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 280px;
+    
+}
+i,p{
+    color: #666666;
+    font-size: 0.9rem;
+}
+i{
+    font-size: 1.1rem;
+}
+
+.top_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.top1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.top_right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.top3,
+.top4,
+.top5,
+.top6,
+.top7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.top3 img{
+    height: 15px;
+}
+.top6 img{
+    height: 25px;
+}
+
+/* ----------------------------------------- */
+
+.header_main{
+    height: 47px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.main1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 110px;
+}
+.main1 i{
+    font-size: 1.7rem;
+}
+
+.main1 img{
+    height: 45px;
+    width: 115px;
+}
+
+/* -------------- */
+.main2{
+    height: 40px;
+    width: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 7px;
+}
+.downicon{
+    margin-top: 6px;
+}
+
+/* ------------- */
+.main3{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 400px;
+    border: 1px groove #008bcf;
+    border-radius: 2px;
+}
+
+.main3one{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 5px;
+    border-right: 1px groove #c1c1c1;
+
+}
+
+/* ------------- */
+.main3two input{
+    padding-left: 5px;
+    width: 230px;
+    outline: none;
+    border: none;
+}
+
+.main3three{
+    height: 39px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    background-color: #008bcf;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.main3three i{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+/* ------------------ */
+.main4{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main4 i{
+    font-size: 1.5rem;
+    margin-left: 220px;
+}
+
+/* --------------- */
+.main5{
+    margin-left: 10px;
+    height: 39px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcec52;
+    border: 1px groove #e6c303;
+    font-weight: 500;
+    
+}
+
+.main5 p{
+    color: black;
+}
